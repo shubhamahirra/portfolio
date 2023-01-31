@@ -1,0 +1,1513 @@
+/* import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap');  */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sacramento';
+  
+  
+  
+  
+  /* background-color: #23253A; */
+}
+
+
+.topnav
+ {
+  background-color: white;
+  width: 100vhs;
+  display: none;
+  
+  
+  /* height: 100vhs; */
+}
+.navlink {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  position: relative;
+  left: 40px;
+  
+}
+.navlink h1{
+    color: black;
+}
+.navlink p{
+    color: rgb(121, 121, 121);
+}
+.navs {
+  position: relative;
+  left: 80px;
+  
+  
+}
+ul{
+    background-color: #6d6d6d;
+    padding-top: 204px;
+    padding-bottom: 90px;
+    
+   bottom: -15px;
+    right: 90%;
+    position: fixed;
+    
+}
+
+
+.navs li {
+  padding-top: 60px;
+  position: relative;
+  bottom: 100px;
+  text-align: center;
+  font-size: 15px;
+  list-style: none;
+  background-color: #6d6d6d;
+  padding: 30px;
+  transition: 0.5s ease-in;
+  
+}
+.navs li:hover{
+  color: black;
+    background-color: rgb(50, 50, 50);
+    
+}
+
+
+
+.hero h1 {
+  font-size: 45px;
+}
+
+.navs a {
+  text-decoration: none;
+  color: white;
+  
+  
+}
+
+.myphoto img {
+  width: 360px;
+  margin-top: 30px;
+}
+
+/* portfolio */
+.portfolio{
+    margin-top: 50px;
+    color: black;
+    /* background-color:#e2e2e2 ; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    
+
+}
+.portfolio-text h3{
+    font-size: 40px;
+    position: relative;
+    left: 45px;
+}
+.portfolio-images {
+    position: relative;
+    width: 38%;
+    padding: 5px 5px 5px 5px;
+    left: 16%;
+    
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .portfolio-images:hover .image {
+    opacity: 0.3;
+  }
+  
+  .portfolio-images:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .row{
+    display: flex;
+    
+  }
+
+  /* about */
+  
+
+  .about{
+    margin-top: 80px;
+    padding-left: 160px;
+    overflow: hidden;
+  }
+  .aboutflex{
+    display: flex;
+    justify-content: space-around;
+  }
+  .aboutme-title{
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    padding-right: 40px;
+    
+  }
+  .aboutme-title h3{
+    font-size: 40px;
+    
+  }
+  .aboutme-title p{
+    color: rgb(143, 143, 143);
+    
+  }
+  .aboutme-img img{
+    width: 390px;
+  }
+
+  .resume{
+    list-style: none;
+    background-color: #808080;
+    padding-left: -90;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: #808080 solid;
+    border-radius: 5px;
+    border-width: 1;
+   
+  }
+  .resume:hover{
+    background-color: rgb(235, 235, 235);
+  }
+  .resume a{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+  }
+  .skill{
+    margin-top: 70px;
+  }
+  * {box-sizing:border-box}
+
+/* Container for skill bars */
+.graph {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  
+}
+
+.html {width: 90%; background-color: rgb(143, 143, 143);} /* Green */
+.css {width: 80%; background-color: rgb(143, 143, 143);} /* Blue */
+.js {width: 65%; background-color: rgb(143, 143, 143);} /* Red */
+.php {width: 60%; background-color: rgb(143, 143, 143);} /* Dark Grey */
+
+
+/* contact */
+.contact{
+margin-top: 80px;
+padding-left: 70px;
+
+}
+.contact-title h3{
+    font-size: 40px;
+    position: relative;
+    right: 280px;
+    color: black;
+    
+}
+.line{
+    width: 120px;
+    height: 3px;
+    background-color: #808080;
+    position: relative;
+    left: 290px;
+}
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.bigicon{
+    width: 90px;
+}
+.envelop1 {
+    width: 30px;
+    position: relative;
+    left: 45px;
+    bottom: 8px;
+    padding-left: -30;
+    
+    
+}
+
+/* connect */
+
+.connect{
+    margin-top: 80px;
+    margin-left: 70px;
+    
+}
+
+  .connect-title h3{
+    font-size: 40px;
+    color: rgb(143, 143, 143);
+  }
+  
+  .connect-input input{
+    width: 360px;
+    height: 50px;
+    margin: 20px;
+
+  }
+  .but{
+    padding: 5px 15px 5px 15px;
+    background-color: #ddd;
+    border: none;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 40px;
+  }
+  .but:hover{
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  /* mobiles */
+
+  @media screen and (max-width: 500px) {
+
+    .topnav{
+      display: block;
+    }
+   
+    .navlink {
+      display: flex;
+      justify-content: center;
+      padding-top: 4%;
+      position: relative;
+      left: 20px;
+      
+    }
+    .navlink h1{
+        color: black;
+       
+    }
+    .navlink p{
+        color: rgb(121, 121, 121);
+    }
+    .navs {
+      display: none;
+      
+      
+    }
+   
+    .Top{
+      overflow: hidden;
+    }
+    
+    
+   
+   
+    
+    
+    .hero h1 {
+      font-size: 38px;
+      position: relative;
+      top: 30px;
+      right: 5px;
+      
+    }
+    .hero p{
+      position: relative;
+      top: 30px;
+      right: 5px;
+    }
+    
+    
+    .myphoto img {
+      
+      margin-top: 110px;
+      position: relative;
+      right: 10px;
+    }
+    
+    /* portfolio */
+    .portfolio{
+        margin-top: 30px;
+        color: black;
+        position: relative;
+        right: 15px;
+        /* background-color:#e2e2e2 ; */
+        
+        
+        
+    
+    }
+    .portfolio-text h3{
+      position: relative;
+      left: 22px;
+    }
+    
+    .portfolio-images {
+        position: relative;
+        width: 88%;
+        padding: 5px 5px 5px 5px;
+        left: 9.5%;
+        margin-top: 30px;
+        
+      }
+      
+     
+      
+      
+      
+    
+      /* about */
+    
+     
+      .aboutflex{
+        display: block;
+        position: relative;
+        right: 160px;
+        
+      }
+      .aboutme-title{
+        
+        text-align: center;
+        font-size: 15px;
+        
+        position: relative;
+        left: 115px;
+        
+      }
+      .aboutme-title h3{
+        font-size: 40px;
+        padding-top: 20px;
+        
+      }
+      .aboutme-title p{
+        
+        font-size: 20px;
+        width: 360px;
+        position: relative;
+        right: 100px;
+        
+      }
+      
+    
+      
+      
+      .skill{
+        margin-top: 120px;
+      }
+      * {box-sizing:border-box}
+    
+    /* Container for skill bars */
+    .graph {
+      width: 150%; /* Full width */
+      background-color: #ddd; /* Grey background */
+      position: relative;
+      right: 60px;
+      
+    }
+    .skill_language {
+      position: relative;
+      top: 11px;
+    }
+    
+    
+   
+    
+    
+    /* contact */
+    .contact{
+    margin-top: 80px;
+    padding-left: 50px;
+    
+    
+    }
+    .contact-title h3{
+        font-size: 32px;
+        position: relative;
+        right: 90px;
+        color: black;
+        
+    }
+    .line{
+        
+        
+        position: relative;
+        left: 58px;
+    }
+    .info{
+        display: block;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        position: relative;
+        right: 15px;
+    }
+    .bigicon{
+        width: 90px;
+    }
+    .envelop1 {
+        width: 30px;
+        position: relative;
+        left: 5px;
+        bottom: 8px;
+        padding-left: -30;
+        
+        
+    }
+    
+    /* connect */
+    
+    .connect{
+        
+        position: relative;
+        right: 45px;
+        overflow: hidden;
+        
+    }
+    
+      .connect-title h3{
+        font-size: 40px;
+        color: rgb(143, 143, 143);
+      }
+      
+      
+      .but{
+        padding: 5px 24px 5px 24px;
+        position: relative;
+        left: 18px;
+      }
+      .but:hover{
+        
+        background-color: black;
+        color: white;
+        border: none;
+      }
+    
+}
+@media screen and (min-width: 500px)and (max-width: 900px) {
+  .topnav{
+    display: block;
+  }
+ 
+  .navlink {
+    
+    position: relative;
+    left: 20px;
+    
+  }
+  
+  .navs {
+    display: none;
+    
+    
+  }
+ 
+  .Top{
+    overflow: hidden;
+  }
+  
+  
+ 
+ 
+  
+  
+  .hero h1 {
+   
+    position: relative;
+    top: 30px;
+    right: 5px;
+    
+  }
+  .hero p{
+    position: relative;
+    top: 30px;
+    right: 5px;
+  }
+  
+  
+  .myphoto img {
+    
+    margin-top: 110px;
+    position: relative;
+    right: 10px;
+  }
+  
+  /* portfolio */
+  .portfolio{
+      margin-top: 30px;
+      color: black;
+      position: relative;
+      right: 30px;
+      /* background-color:#e2e2e2 ; */
+      
+      
+      
+  
+  }
+  .portfolio-text h3{
+    position: relative;
+    left: 22px;
+  }
+  
+  .portfolio-images {
+      position: relative;
+      width: 88%;
+      padding: 5px 5px 5px 5px;
+      left: 9.5%;
+      margin-top: 30px;
+      
+    }
+    
+   
+    
+    
+    
+  
+    /* about */
+  
+   
+    .aboutflex{
+      display: block;
+      position: relative;
+      right: 90px;
+      
+    }
+    .aboutme-title{
+      
+      text-align: center;
+      font-size: 15px;
+      
+      
+      
+    }
+    .aboutme-title h3{
+      font-size: 40px;
+      padding-top: 20px;
+      position: relative;
+      left: 20px;
+      
+    }
+    .aboutme-title p{
+      
+      font-size: 20px;
+      width: 560px;
+      position: relative;
+      left: 40px;
+      
+    }
+    
+  
+    
+    
+    .skill{
+      margin-top: 120px;
+      position: relative;
+      left: 20px;
+
+    }
+    .resume{
+      position: absolute;
+      left: 230px;
+      
+    }
+    * {box-sizing:border-box}
+  
+  /* Container for skill bars */
+  .graph {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    position: relative;
+   left: 30px;
+    
+  }
+  .skill_language {
+    position: relative;
+    top: 11px;
+  }
+  
+  
+ 
+  
+  
+  /* contact */
+  .contact{
+  margin-top: 80px;
+  padding-left: 50px;
+  
+  
+  }
+  .contact-title h3{
+      font-size: 32px;
+      position: relative;
+      right: 140px;
+      color: black;
+      
+  }
+  .line{
+      
+      
+      position: relative;
+      left: 190px;
+  }
+  .info{
+      display: block;
+      text-align: center;
+      justify-content: space-evenly;
+      margin-top: 40px;
+      position: relative;
+      right: 15px;
+  }
+  .bigicon{
+      width: 90px;
+  }
+  .envelop1 {
+      width: 30px;
+      position: relative;
+      left: 5px;
+      bottom: 8px;
+      padding-left: -30;
+      
+      
+  }
+  
+  /* connect */
+  
+  .connect{
+      
+      position: relative;
+      right: 45px;
+      overflow: hidden;
+      
+  }
+  
+    .connect-title h3{
+      font-size: 40px;
+      color: rgb(143, 143, 143);
+    }
+    
+    
+    .but{
+      padding: 5px 24px 5px 24px;
+      position: relative;
+      left: 5px;
+    }
+    .but:hover{
+      
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+  @media screen and (min-width: 900px)and (max-width: 1300px) {
+    .topnav{
+      display: block;
+    }
+   
+    .navlink {
+      
+      position: relative;
+      left: 20px;
+      
+    }
+    
+    .navs {
+      display: none;
+      
+      
+    }
+   
+    .Top{
+      overflow: hidden;
+    }
+    
+    
+   
+   
+    
+    
+    .hero h1 {
+     
+      position: relative;
+      top: 30px;
+      right: 5px;
+      
+    }
+    .hero p{
+      position: relative;
+      top: 30px;
+      right: 5px;
+    }
+    
+    
+    .myphoto img {
+      
+      margin-top: 110px;
+      position: relative;
+      right: 10px;
+    }
+    
+    /* portfolio */
+    .portfolio{
+        margin-top: 30px;
+        color: black;
+        position: relative;
+        right: 30px;
+        /* background-color:#e2e2e2 ; */
+        
+        
+        
+    
+    }
+    .portfolio-text h3{
+      position: relative;
+      left: 22px;
+    }
+    
+    .portfolio-images {
+        position: relative;
+        display: flex;
+        width: 40%;
+        padding: 1px 5px 5px 5px;
+        left: 12%;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        
+      }
+      
+      
+     
+      
+      
+      
+    
+      /* about */
+    
+     
+      .aboutflex{
+        display: block;
+        position: relative;
+        right: 90px;
+        
+      }
+      .aboutme-title{
+        
+        text-align: center;
+        font-size: 15px;
+        
+        
+        
+      }
+      .aboutme-title h3{
+        font-size: 40px;
+        padding-top: 20px;
+        position: relative;
+        left: 20px;
+        
+      }
+      .aboutme-title p{
+        
+        font-size: 20px;
+        width: 560px;
+        position: relative;
+        left: 270px;
+        
+      }
+      
+    
+      
+      
+      .skill{
+        margin-top: 120px;
+        position: relative;
+        left: 20px;
+  
+      }
+      .resume{
+        position: absolute;
+        left: 465px;
+        
+      }
+      * {box-sizing:border-box}
+    
+    /* Container for skill bars */
+    .graph {
+      width: 100%; /* Full width */
+      background-color: #ddd; /* Grey background */
+      position: relative;
+     left: 30px;
+      
+    }
+    .skill_language {
+      position: relative;
+      top: 11px;
+    }
+    
+    
+   
+    
+    
+    /* contact */
+    .contact{
+    margin-top: 80px;
+    padding-left: 50px;
+    
+    
+    }
+    .contact-title h3{
+        font-size: 32px;
+        position: relative;
+        right: 140px;
+        color: black;
+        
+    }
+    .line{
+        
+        
+        position: relative;
+        left: 190px;
+    }
+    .info{
+        display: block;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        position: relative;
+        right: 15px;
+    }
+    .bigicon{
+        width: 90px;
+    }
+    .envelop1 {
+        width: 30px;
+        position: relative;
+        left: 5px;
+        bottom: 8px;
+        padding-left: -30;
+        
+        
+    }
+    
+    /* connect */
+    
+    .connect{
+        
+        position: relative;
+        right: 45px;
+        overflow: hidden;
+        
+    }
+    
+      .connect-title h3{
+        font-size: 40px;
+        color: rgb(143, 143, 143);
+      }
+      
+      
+      .but{
+        padding: 5px 24px 5px 24px;
+        position: relative;
+        left: 5px;
+      }
+      .but:hover{
+        
+        background-color: black;
+        color: white;
+        border: none;
+      }
+    }
+
+
+
+
+
+  /* *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    text-align: center;
+    padding: 32px;
+}
+.header h1{
+    font-family: 'Sacramento';
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 100px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+}
+.img-hover-zoom{
+    height: auto;
+    overflow: hidden;
+    border: 5px solid #ffff;
+}
+.img-hover-zoom img{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition:  transform .5s ease;
+}
+.img-hover-zoom:hover img{
+    transform: scale(1.5);
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+} */
+@media screen and (min-width: 900px)and (max-width: 1024px) {
+  .topnav{
+    display: block;
+  }
+ 
+  .navlink {
+    
+    position: relative;
+    left: 20px;
+    
+  }
+  
+  .navs {
+    display: none;
+    
+    
+  }
+ 
+  .Top{
+    overflow: hidden;
+  }
+  
+  
+ 
+ 
+  
+  
+  .hero h1 {
+   
+    position: relative;
+    top: 30px;
+    right: 5px;
+    
+  }
+  .hero p{
+    position: relative;
+    top: 30px;
+    right: 5px;
+  }
+  
+  
+  .myphoto img {
+    
+    margin-top: 110px;
+    position: relative;
+    right: 10px;
+  }
+  
+  /* portfolio */
+  .portfolio{
+      margin-top: 30px;
+      color: black;
+      position: relative;
+      right: 30px;
+      /* background-color:#e2e2e2 ; */
+      
+      
+      
+  
+  }
+  .portfolio-text h3{
+    position: relative;
+    left: 22px;
+  }
+  
+  .portfolio-images {
+      position: relative;
+      display: flex;
+      width: 40%;
+      padding: 1px 5px 5px 5px;
+      left: 12%;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      
+    }
+    
+    
+   
+    
+    
+    
+  
+    /* about */
+  
+   
+    .aboutflex{
+      display: block;
+      position: relative;
+      right: 90px;
+      
+    }
+    .aboutme-title{
+      
+      text-align: center;
+      font-size: 15px;
+      
+      
+      
+    }
+    .aboutme-title h3{
+      font-size: 40px;
+      padding-top: 20px;
+      position: relative;
+      left: 20px;
+      
+    }
+    .aboutme-title p{
+      
+      font-size: 20px;
+      width: 560px;
+      position: relative;
+      left: 140px;
+      
+    }
+    
+  
+    
+    
+    .skill{
+      margin-top: 120px;
+      position: relative;
+      left: 20px;
+
+    }
+    .resume{
+      position: absolute;
+      left: 335px;
+      
+    }
+    * {box-sizing:border-box}
+  
+  /* Container for skill bars */
+  .graph {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    position: relative;
+   left: 30px;
+    
+  }
+  .skill_language {
+    position: relative;
+    top: 11px;
+  }
+  
+  
+ 
+  
+  
+  /* contact */
+  .contact{
+  margin-top: 80px;
+  padding-left: 50px;
+  
+  
+  }
+  .contact-title h3{
+      font-size: 32px;
+      position: relative;
+      right: 140px;
+      color: black;
+      
+  }
+  .line{
+      
+      
+      position: relative;
+      left: 190px;
+  }
+  .info{
+      display: block;
+      text-align: center;
+      justify-content: space-evenly;
+      margin-top: 40px;
+      position: relative;
+      right: 15px;
+  }
+  .bigicon{
+      width: 90px;
+  }
+  .envelop1 {
+      width: 30px;
+      position: relative;
+      left: 5px;
+      bottom: 8px;
+      padding-left: -30;
+      
+      
+  }
+  
+  /* connect */
+  
+  .connect{
+      
+      position: relative;
+      right: 45px;
+      overflow: hidden;
+      
+  }
+  
+    .connect-title h3{
+      font-size: 40px;
+      color: rgb(143, 143, 143);
+    }
+    
+    
+    .but{
+      padding: 5px 24px 5px 24px;
+      position: relative;
+      left: 5px;
+    }
+    .but:hover{
+      
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+
+
+
+
+
+  @media screen and (min-width: 0px)and (max-width: 400px) {
+    .topnav{
+      display: block;
+    }
+   
+    .navlink {
+      
+      position: relative;
+      left: 20px;
+      
+    }
+    
+    .navs {
+      display: none;
+      
+      
+    }
+   
+    .Top{
+      overflow: hidden;
+    }
+    
+    
+   
+   
+    
+    
+    .hero h1 {
+     
+      position: relative;
+      top: 30px;
+      right: 16px;
+      
+      
+    }
+    .hero p{
+      position: relative;
+      top: 30px;
+      right: 5px;
+    }
+    
+    
+    .myphoto img {
+      
+      margin-top: 110px;
+      position: relative;
+      right: 10px;
+    }
+    
+    /* portfolio */
+    .portfolio{
+        margin-top: 30px;
+        color: black;
+        position: relative;
+        right: 30px;
+        /* background-color:#e2e2e2 ; */
+        
+        
+        
+    
+    }
+    .portfolio-text h3{
+      position: relative;
+      left: 22px;
+    }
+    
+    .portfolio-images {
+        position: relative;
+        display: block;
+        width: 75%;
+        padding: 1px 5px 5px 5px;
+        left: 20%;
+        margin-top: 30px;
+        
+        
+      }
+      
+      
+     
+      
+      
+      
+    
+      /* about */
+    
+     
+      .aboutflex{
+        display: block;
+        position: relative;
+        right: 180px;
+        
+      }
+      .aboutme-title{
+        
+        text-align: center;
+        font-size: 15px;
+        
+        
+        
+      }
+      .aboutme-title h3{
+        font-size: 40px;
+        padding-top: 20px;
+        position: relative;
+        left: 6px;
+        
+      }
+      .aboutme-title p{
+        
+        font-size: 20px;
+        width: 340px;
+        position: relative;
+        right: 90px;
+        
+        
+      }
+      
+    
+      
+      
+      .skill{
+        margin-top: 120px;
+        position: relative;
+        left: 15px;
+  
+      }
+      .resume{
+        position: absolute;
+        left: 465px;
+        
+      }
+      * {box-sizing:border-box}
+    
+    /* Container for skill bars */
+    .graph {
+      width: 160%; /* Full width */
+      background-color: #ddd; /* Grey background */
+      position: relative;
+     left: -38px;
+     
+      
+    }
+    .skill_language {
+      position: relative;
+      top: 11px;
+    }
+    
+    
+   
+    
+    
+    /* contact */
+    .contact{
+    margin-top: 80px;
+    padding-left: 50px;
+    
+    
+    }
+    .contact-title h3{
+        font-size: 32px;
+        position: relative;
+        right: 80px;
+        color: black;
+        
+    }
+    .line{
+        
+        
+        position: relative;
+        left: 50px;
+    }
+    .info{
+        display: block;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        position: relative;
+        right: 22px;
+    }
+    .bigicon{
+        width: 90px;
+    }
+    .envelop1 {
+        width: 30px;
+        position: relative;
+        left: 5px;
+        bottom: 8px;
+        padding-left: -30;
+        
+        
+    }
+    
+    /* connect */
+    
+    .connect{
+        
+        position: relative;
+        right: 45px;
+        overflow: hidden;
+        
+    }
+    
+      .connect-title h3{
+        font-size: 40px;
+        color: rgb(143, 143, 143);
+      }
+      
+      
+      .but{
+        padding: 5px 24px 5px 24px;
+        position: relative;
+        left: 5px;
+      }
+      .but:hover{
+        
+        background-color: black;
+        color: white;
+        border: none;
+      }
+    }
+
+
+    .mobiles{
+      position: relative;
+      left: 80px;
+      bottom: 300px;
+    }
+
+
+    .topnav {
+      overflow: hidden;
+      
+      position: relative;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .nav {
+      display: block;
+      transition: 0.6s ease-in-out;
+      transform: translatey(-100%);
+      background-color: rgb(97, 97, 97);
+    }
+    .nav__active{
+      transform: translatey(0%)
+  }
+
+    #myLinks.active{
+      display: none;
+    }
+
+
+    
+    /* Style navigation menu links */
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .topnav .act  {
+      background-color: rgb(97, 97, 97);
+      
+      color: transparent;
+      padding-bottom: 40px;
+    }
+    
+
+
+
+
